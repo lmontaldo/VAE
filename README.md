@@ -10,4 +10,14 @@ Citation:
       archivePrefix={arXiv},
       primaryClass={stat.ML},
       url={https://arxiv.org/abs/1907.04809}, 
-}
+
+Explanation files:
+
+cmd_utils.py :
+
+
+
+* Parse command-line arguments for configuring machine learning tasks.
+* Generate multiple variants of argument configurations by appending random seeds.
+* Ensure that datasets required by configurations are created beforehand.
+* Divide configurations into CPU and GPU workloads for efficient resource allocation.

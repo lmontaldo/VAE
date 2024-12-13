@@ -438,3 +438,6 @@ if __name__ == '__main__':
                   "activation": args.a, "seed": args.s, "batch_size": 0, "uncentered": args.uncentered,
                   "noisy": args.noisy}
         save_data(path_to_dataset, **kwargs)
+
+
+# run: python data.py 1000 50 3 6 --n-layers 4 --seed 42 --prior gauss --activation xtanh --noisy --uncentered
